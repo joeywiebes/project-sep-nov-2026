@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+/* animatie */
+#wereldbol {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* buttons */
+.over-mij{
+    position: absolute;
+    top: 20vh;
+    left: 7vw;
+    z-index: 1;
+   
+}
+
+.opleidingen{
+    position: absolute;
+    top: 19.2vh;
+    left: 77.8vw;
+    z-index: 1;
+   
+}
+
+.interview{
+    position: absolute;
+    top: 33.5vh;
+    left: 43.8vw;
+    z-index: 1;
+    height: 15px;
+    
+}
+
+.projecten{
+    position: absolute;
+    top: 24.2vh;
+    left: 57.99vw;
+    z-index: 1;
+    
+}
+
+.links{
+    position: absolute;
+    top: 49.4vh;
+    left: 26.5vw;
+    z-index: 1;
+    
+}
+
+/* sterren zonder balk */
+.ster{
+    position:absolute;
+    top: 15vh;
+    width: 180px;
+    left: 25vw;
+}
+
+/* sterren met balk */
+.ster-balk1{
+    position: absolute;
+    top: 20vh;
+    width: 100px;
+    left: 57.2vw;
+}
+
+.sterloos-balk{
+    position: absolute;
+    top: 14.8vh;
+    width: 200px;
+    height: 100px;
+    left: 75vw;
+}
+
+.ster-balk{
+    position: absolute;
+    top: 30vh;
+    width: 100px;
+    left: 43vw;
+}
+
+.sterloos-balk1{
+    position: absolute;
+    top: 45vh;
+    width: 100px;
+    height: 100px;
+    left: 25vw;
+}
+/* 
+.galaxy{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+} */
