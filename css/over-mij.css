@@ -1,303 +1,494 @@
 body {
-    margin: 0;
-    color: white;
-    font-family: Arial, sans-serif;
-    background-color: black;
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: black;
 }
 
 #moon {
-    width: 100vw;
-    height: 100vh;
-    display: block;
+  width: 100vw;
+  height: 100vh;
+  display: block;
 }
 
-.start-text{
+
+.start-text {
   font-size: 20px;
-     width: 200px;
+  width: 200px;
   height: 200px;
   background-color: transparent;
   position: relative;
   animation-name: myAnimation;
   animation-duration: 20s;
   animation-delay: 0s;
-    position: absolute;
-    z-index: 1;
-    color: white;
-    top: 200px;
-    left: 200px;
-    opacity: 0;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  left: 200px;
+  opacity: 0;
 }
 
 @keyframes myAnimation {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
 
-    0% {
-        background-color: transparent;
-        opacity: 0;
-        left: 200px;
-        top: 200px;
-    }
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
 
-    10% {
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    }
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
 
-    20% {
-        background-color: transparent;
-        opacity: 0.25;
-        left: 200px;
-        top: 200px;
-    }
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
 
-    30% {
-        background-color: transparent;
-        opacity: 0.5;
-      left: 200px;
-        top: 200px;
-    }
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
 
-     40%{
-        background-color: transparent;
-        opacity: 0.75;
-      left: 200px;
-        top: 200px;
-    }
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    left: 200px;
+    top: 200px;
+  }
 
-     50%{
-        background-color: transparent;
-        opacity: 1;
-      left: 200px;
-        top: 200px;
-    }
-     
-    60%{
-        background-color: transparent;
-        opacity: 0.75;
-      left: 200px;
-        top: 200px;
-    }
-     
-    70%{
-        background-color: transparent;
-        opacity: 0.5;
-      left: 200px;
-        top: 200px;
-    }
-    
-    80%{
-        background-color: transparent;
-        opacity: 0.25;
-      left: 200px;
-        top: 200px;
-    } 
-    
-    90%{
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    } 
-    
-    100%{
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    }
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
 }
 
-.text:nth-child(1){
+.text {
   font-size: 20px;
-     width: 200px;
+  width: 200px;
   height: 200px;
   background-color: transparent;
   position: relative;
   animation-name: myAnimation1;
   animation-duration: 20s;
   animation-delay: 14s;
-    position: absolute;
-    z-index: 1;
-    color: white;
-    top: 200px;
-    right: 200px;
-    opacity: 0;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  right: 200px;
+  opacity: 0;
 }
+
 
 @keyframes myAnimation1 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
 
-    0% {
-        background-color: transparent;
-        opacity: 0;
-        right: 200px;
-        top: 200px;
-    }
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
 
-    10% {
-        background-color: transparent;
-        opacity: 0;
-      right: 200px;
-        top: 200px;
-    }
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
 
-    20% {
-        background-color: transparent;
-        opacity: 0.25;
-        right: 200px;
-        top: 200px;
-    }
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
 
-    30% {
-        background-color: transparent;
-        opacity: 0.5;
-      right: 200px;
-        top: 200px;
-    }
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
 
-     40%{
-        background-color: transparent;
-        opacity: 0.75;
-      right: 200px;
-        top: 200px;
-    }
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    right: 200px;
+    top: 200px;
+  }
 
-     50%{
-        background-color: transparent;
-        opacity: 1;
-      right: 200px;
-        top: 200px;
-    }
-     
-    60%{
-        background-color: transparent;
-        opacity: 0.75;
-      right: 200px;
-        top: 200px;
-    }
-     
-    70%{
-        background-color: transparent;
-        opacity: 0.5;
-      right: 200px;
-        top: 200px;
-    }
-    
-    80%{
-        background-color: transparent;
-        opacity: 0.25;
-      right: 200px;
-        top: 200px;
-    } 
-    
-    90%{
-        background-color: transparent;
-        opacity: 0;
-      right: 200px;
-        top: 200px;
-    } 
-    
-    100%{
-        background-color: transparent;
-        opacity: 0;
-      right: 200px;
-        top: 200px;
-    }
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
 }
 
-.text:nth-child(2){
+.text1 {
   font-size: 20px;
-     width: 200px;
+  width: 200px;
   height: 200px;
   background-color: transparent;
   position: relative;
   animation-name: myAnimation2;
   animation-duration: 20s;
   animation-delay: 30s;
-    position: absolute;
-    z-index: 1;
-    color: white;
-    top: 200px;
-    left: 200px;
-    opacity: 0;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  left: 200px;
+  opacity: 0;
 }
 
 @keyframes myAnimation2 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
 
-    0% {
-        background-color: transparent;
-        opacity: 0;
-        left: 200px;
-        top: 200px;
-    }
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
 
-    10% {
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    }
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
 
-    20% {
-        background-color: transparent;
-        opacity: 0.25;
-        left: 200px;
-        top: 200px;
-    }
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
 
-    30% {
-        background-color: transparent;
-        opacity: 0.5;
-      left: 200px;
-        top: 200px;
-    }
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
 
-     40%{
-        background-color: transparent;
-        opacity: 0.75;
-      left: 200px;
-        top: 200px;
-    }
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    left: 200px;
+    top: 200px;
+  }
 
-     50%{
-        background-color: transparent;
-        opacity: 1;
-      left: 200px;
-        top: 200px;
-    }
-     
-    60%{
-        background-color: transparent;
-        opacity: 0.75;
-      left: 200px;
-        top: 200px;
-    }
-     
-    70%{
-        background-color: transparent;
-        opacity: 0.5;
-      left: 200px;
-        top: 200px;
-    }
-    
-    80%{
-        background-color: transparent;
-        opacity: 0.25;
-      left: 200px;
-        top: 200px;
-    } 
-    
-    90%{
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    } 
-    
-    100%{
-        background-color: transparent;
-        opacity: 0;
-      left: 200px;
-        top: 200px;
-    }
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+}
+
+.greece {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: relative;
+  animation-name: myAnimation3;
+  animation-duration: 8s;
+  animation-delay: 30;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  right: 200px;
+  opacity: 0;
+}
+
+@keyframes myAnimation3 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    right: 200px;
+    top: 200px;
+  }
+
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+}
+
+.greece1 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: relative;
+  animation-name: myAnimation4;
+  animation-duration: 8s;
+  animation-delay: 40;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  right: 200px;
+  opacity: 0;
+}
+
+@keyframes myAnimation4 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    right: 200px;
+    top: 200px;
+  }
+
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
 }
