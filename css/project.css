@@ -3,3 +3,24 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.info-project{
+    color: white;
+    position: relative;
+    left: 700px;
+    top: 100px;
+    width: 300px;
+    font-size: 25px;
+}
+
+nav{
+    background-color: rgb(84, 0, 0);
+    padding: 5px;
+    margin: -10px;
+}

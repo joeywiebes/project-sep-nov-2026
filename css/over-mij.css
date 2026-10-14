@@ -309,7 +309,7 @@ body {
   position: relative;
   animation-name: myAnimation3;
   animation-duration: 8s;
-  animation-delay: 30;
+  animation-delay: 32s;
   position: absolute;
   z-index: 1;
   color: white;
@@ -405,7 +405,7 @@ body {
   position: relative;
   animation-name: myAnimation4;
   animation-duration: 8s;
-  animation-delay: 40;
+  animation-delay: 40s;
   position: absolute;
   z-index: 1;
   color: white;
@@ -490,5 +490,295 @@ body {
     opacity: 0;
     right: 200px;
     top: 200px;
+  }
+}
+
+.text2 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: relative;
+  animation-name: myAnimation4;
+  animation-duration: 20s;
+  animation-delay: 50s;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  right: 200px;
+  opacity: 0;
+}
+
+@keyframes myAnimation4 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  10% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    right: 200px;
+    top: 200px;
+  }
+
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    right: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    right: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    right: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    right: 200px;
+    top: 200px;
+  }
+}
+
+.text3 {
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: relative;
+  animation-name: myAnimation5;
+  animation-duration: 20s;
+  animation-delay: 67s;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 200px;
+  left: 200px;
+  opacity: 0;
+}
+
+@keyframes myAnimation5 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+
+  10% {
+    background-color: transparent;
+    opacity: 0.1;
+    left: 200px;
+    top: 200px;
+  }
+
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
+
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
+
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
+
+  50% {
+    background-color: transparent;
+    opacity: 1;
+    left: 200px;
+    top: 200px;
+  }
+
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+    left: 200px;
+    top: 200px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+    left: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+    left: 200px;
+    top: 200px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+    left: 200px;
+    top: 200px;
+  }
+}
+
+.THE-button {
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  padding: 2;
+  border-radius: 20px;
+  position: relative;
+  animation-name: myAnimation6;
+  animation-duration: 10000s;
+  animation-delay: 80s;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 400px;
+  left: 896px;
+  opacity: 0;
+}
+
+@keyframes myAnimation6 {
+  0% {
+    background-color: transparent;
+    opacity: 0;
+  top: 400px;
+  left: 896px;
+  }
+
+  10% {
+    background-color: transparent;
+    opacity: 0.1;
+  top: 400px;
+  left: 896px;
+  }
+
+  20% {
+    background-color: transparent;
+    opacity: 0.25;
+  top: 400px;
+  left: 896px;
+  }
+
+  30% {
+    background-color: transparent;
+    opacity: 0.5;
+  top: 400px;
+  left: 896px;
+  }
+
+  40% {
+    background-color: transparent;
+    opacity: 0.75;
+  top: 400px;
+  left: 896px;
+  }
+
+  50% {
+    background-color: transparent;
+    opacity: 1;
+  top: 400px;
+  left: 896px;
+  }
+
+  60% {
+    background-color: transparent;
+    opacity: 0.75;
+  top: 400px;
+  left: 896px;
+  }
+
+  70% {
+    background-color: transparent;
+    opacity: 0.5;
+  top: 400px;
+  left: 896px;
+  }
+
+  80% {
+    background-color: transparent;
+    opacity: 0.25;
+  top: 400px;
+  left: 896px;
+  }
+
+  90% {
+    background-color: transparent;
+    opacity: 0;
+  top: 400px;
+  left: 896px;
+  }
+
+  100% {
+    background-color: transparent;
+    opacity: 0;
+  top: 400px;
+  left: 896px;
   }
 }
