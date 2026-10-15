@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(35, 154, 240);
+}
+
+nav{
+    background-color: darkblue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 60px;
+    position: relative;
+    left: 2100px;
+}
+/* 
+.beach{
+    position: absolute;
+    background-color: rgb(251, 254, 147);
+    width: 2302px;
+    height: 1000px;
+    top: 995px;
+    left: 1px;
+    border-radius: 100vh;
+} */
