@@ -4,11 +4,15 @@ body{
 
 nav{
     background-color: darkblue;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    position: fixed;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+section{
+    z-index: 1000;
 }
 
 .sun{
@@ -16,16 +20,35 @@ a{
     height: 100px;
     background-color: yellow;
     border-radius: 60px;
-    position: relative;
+    position: absolute;
     left: 2100px;
+    /* top: 100px; */
 }
-/* 
-.beach{
+
+a{
+    color: black;
+    text-decoration: none;
+    }
+
+.container{
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    top: 700px;
+    left: 920px;
+    font-size: 50px;    
+}
+
+.container div{
+    align-self: center;
+}
+ 
+footer{
     position: absolute;
     background-color: rgb(251, 254, 147);
-    width: 2302px;
-    height: 1000px;
-    top: 995px;
-    left: 1px;
-    border-radius: 100vh;
-} */
+
+}
