@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(35, 154, 240);
+    background-color: rgb(0, 0, 0);
 }
 
 nav{
-    background-color: darkblue;
+    background-color: grey;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -15,18 +15,8 @@ section{
     z-index: 1000;
 }
 
-.sun{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 60px;
-    position: absolute;
-    left: 2100px;
-    /* top: 100px; */
-}
-
 a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     }
 
@@ -48,7 +38,8 @@ a{
 }
  
 footer{
-    position: absolute;
-    background-color: rgb(251, 254, 147);
-
+    position: relative;
+    background-color: grey;
+    bottom: 0;
+    width: 100%;
 }
