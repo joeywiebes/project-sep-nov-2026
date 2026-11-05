@@ -46,6 +46,7 @@ a {
   font-size: 75px;
   position: relative;
   left: 20px;
+  line-height: 1;
 }
 
 .info-text-software {
