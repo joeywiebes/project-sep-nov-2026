@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-image: url(/img/kubus1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -28,9 +30,12 @@ a{
     gap: 20px;
     justify-content: center;
     align-items: center;
-    top: 700px;
-    left: 920px;
-    font-size: 50px;    
+    top: 300px;
+    left: 620px;
+    font-size: 50px;
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    border-radius: 50px;    
 }
 
 .container div{
@@ -38,8 +43,27 @@ a{
 }
  
 footer{
-    position: relative;
-    background-color: grey;
+    position: fixed;
+    background-color: rgb(46, 46, 46);
     bottom: 0;
     width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 1000px;
+}
+
+img{
+    border-radius: 50px;
+    width: 200px;
 }

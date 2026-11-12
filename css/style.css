@@ -3,6 +3,9 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     background-color: black;
+    background-image: url(/img/stars.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* animatie */
@@ -15,79 +18,80 @@ body {
 /* buttons */
 .over-mij{
     position: absolute;
-    top: 20vh;
-    left: 7vw;
+    top: 460px;
+    left: 360px;
     z-index: 1;
-   
+   color: white;
 }
 
 .opleidingen{
     position: absolute;
-    top: 19.2vh;
+    top: 28vh;
     left: 77.8vw;
     z-index: 1;
+    color: white;
    
 }
 
 .interview{
     position: absolute;
-    top: 33.5vh;
+    top: 30vh;
     left: 43.8vw;
     z-index: 1;
     height: 15px;
-    
+    color: white;
 }
 
 .projecten{
     position: absolute;
-    top: 24.2vh;
+    top: 30vh;
     left: 57.99vw;
     z-index: 1;
-    
+    color: white;
 }
 
 .links{
     position: absolute;
-    top: 49.4vh;
+    top: 30vh;
     left: 26.5vw;
     z-index: 1;
-    
+    color: white;
 }
 
 /* sterren zonder balk */
-.ster{
-    position:absolute;
-    top: 15vh;
+.spacestation{
+    position: absolute;
+    top: 400px;
+    left: 300px;
     width: 180px;
-    left: 25vw;
 }
 
 /* sterren met balk */
-.ster-balk1{
+.moon-itself{
     position: absolute;
-    top: 20vh;
+    top: 28vh;
     width: 100px;
     left: 57.2vw;
 }
 
-.sterloos-balk{
+.astroid{
     position: absolute;
-    top: 14.8vh;
+    top: 24vh;
     width: 200px;
     height: 100px;
     left: 75vw;
 }
 
-.ster-balk{
+.satelite{
     position: absolute;
-    top: 30vh;
-    width: 100px;
-    left: 43vw;
+    top: 28vh;
+    width: 140px;
+    left: 42vw;
 }
 
-.sterloos-balk1{
+.astroid-links{
     position: absolute;
-    top: 45vh;
+    top: 27vh;
     width: 100px;
     height: 100px;
     left: 25vw;

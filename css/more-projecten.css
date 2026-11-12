@@ -5,7 +5,11 @@
 }
 
 body{
-    background-color: black;
+    font-family: "Quantico", sans-serif;
+    /* background-color: black; */
+    background-image: url(/img/kubus2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a{

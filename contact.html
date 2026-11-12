@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="nav-text">
+        <a href="index.html">home</a>
+        <a href="over-mij.html">over mij</a>
+        <a href="projecten.html">projecten</a>
+        <a href="opleidingen.html">opleidingen</a>
+        <a href="interview.html">interview</a>
+        <a href="contact.html">feedback</a>
+        <a href="links.html">links</a>
+      </div>
+    </nav>
+
+<section class="formulier">
+    <div class="form-container">
+
+        <h1>Feedback formulier</h1>
+        <p class="omschrijving">Laat weten wat je van mijn website vindt!</p>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="voornaam">Voornaam</label>
+                <input type="text" id="voornaam" name="voornaam"
+                placeholder="Je voornaam" required>
+            </div>
+
+            <div class="form-group">
+                <label for="achternaam">Achternaam</label>
+                <input type="text" id="achternaam" name="achternaam"
+                placeholder="Je achternaam" required>
+            </div>
+
+            <div class="form-group">
+                <label for="land">Land</label>
+                <select id="land" name="land" required>
+                    <option value="nederland">Nederland</option>
+                    <option value="duitsland">Duitsland</option>
+                    <option value="frankrijk">Frankrijk</option>
+                    <option value="oostenrijk">Oostenrijk</option>
+                    <option value="engeland">Engeland</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Wat vind je van mijn website?</label>
+
+                <div class="beoordeling">
+                    <label>
+                        <input type="radio" name="beoordeling" value="goed">
+                        Goed :)
+                    </label>
+
+                    <label>
+                        <input type="radio" name="beoordeling" value="matig">
+                        Matig :/
+                    </label>
+
+                    <label>
+                        <input type="radio" name="beoordeling" value="slecht">
+                        Slecht :(
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="datum">Datum</label>
+                <input type="date" id="datum" name="datum" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bericht">Geef je feedback</label>
+                <textarea id="bericht" name="bericht"
+                placeholder="Typ hier je feedback..." required></textarea>
+            </div>
+
+            <button type="submit">Verstuur feedback</button>
+
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <h2>formulier &copy</h2>
+    </div>
+</footer>
+</body>
+</html>
